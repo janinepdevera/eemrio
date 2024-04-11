@@ -20,7 +20,9 @@ codes/draft*
 # distribution
 lib/
 bin/
+__pycache__
 
 # others
 eemrio/pyvenv.cfg
 eemrio/share/man/man1/ttx.1
+eemrio/share/
