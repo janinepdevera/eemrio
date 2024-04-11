@@ -1,6 +1,6 @@
 import numpy as np
 import duckdb
-import utils
+from src import utils
 
 class MRIO:
 
