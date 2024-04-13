@@ -1,6 +1,6 @@
 import pandas as pd
-from mrio import MRIO, EE
-from utils import get_years, ind_pattern, aggregate_sectors, convert_dtypes
+from codes.src.mrio import MRIO, EE
+from codes.src.utils import get_years, ind_pattern, aggregate_sectors, convert_dtypes
 
 input_mrio = 'mrio.parquet'
 input_ee = 'ee.parquet'

@@ -1,6 +1,6 @@
 import pandas as pd
-from mrio import EE
-from utils import get_years, aggregate_sectors, convert_dtypes, ind_pattern
+from codes.src.mrio import EE
+from codes.src.utils import get_years, aggregate_sectors, convert_dtypes, ind_pattern
 
 input = 'ee.parquet'
 output = 'summary.parquet'
